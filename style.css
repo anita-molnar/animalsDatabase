@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .form-container {
+    margin-bottom: 20px;
+  }
+  .animal-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  button {
+    margin: 5px;
+  }
