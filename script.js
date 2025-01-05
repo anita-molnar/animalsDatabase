@@ -1,6 +1,3 @@
-
-
-
 const animalForm = document.getElementById("animalForm");
 const accordionContainer = document.getElementById("accordionContainer");
 const animalNameInput = document.getElementById("animalName");

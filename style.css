@@ -2,14 +2,61 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
   }
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+  }
   .form-container {
-    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
-  .animal-list {
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
+  
   button {
-    margin: 5px;
+    width: 100%;
+  }
+  
+  .accordion-container {
+    margin-top: 30px;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+  }
+  
+  #animalOfTheDayDisplay {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #animalOfTheDayButton {
+    width: 200px;
+  }
+  
+  #animalOfTheDayDisplay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
